@@ -1,6 +1,6 @@
 node('jdk11-mvn3.8.4') {
     stage('git') {
-       git branch: 'main', url: 'https://github.com/Madanalaanand/mavenexamples.git'
+       git branch: 'main', url: 'https://github.com/Madanalaanand/thenewone.git'
     }
     stage('build') {
         sh '''
